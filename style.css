@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+body{
+  font-size:16px;
+  background-color: rgb(194, 193, 193);
+  font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-brand{
+  font-weight: 700;
+  font-size:24px;
+}
+
+.heading-container{
+  margin-top: 50px;
+  text-align: center;
+}
+
+.heading-container h2{
+  font-weight:700;
+}
+
+.menu{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 50px;
+
+}
+
+.menu-item{
+  position: relative;
+  background-color: rgb(70, 70, 70);
+  color: #e4e1e1;
+  text-align: center;
+  padding: 10px;
+  margin: 50px auto;
+}
+
+.menu-item h3{
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding:10px;
+  color: #e1e4e1;
+}
+
+.menu-item p{
+  margin-top: 70px;
+}
+
+.menu-item a{
+  color:#639cd0;
+  font-weight: 700;
+}
+
+.menu-item a:hover{
+  color:#4189cd;
+  text-decoration: none;
+}
+
+#chicken h3{
+  background-color: rgb(148, 110, 186);
+}
+
+#beef h3{
+  background-color: rgb(97, 158, 172);
+}
+
+#shushi h3{
+  background-color: rgb(78, 143, 87);
+}
+
+
+ul{
+  text-align: center
+}
+
+ul li a{
+  font-weight: 700;
+  color: #e4e1e1 ;
+}
